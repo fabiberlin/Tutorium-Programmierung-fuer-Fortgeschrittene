@@ -7,7 +7,7 @@
 3   | 04.05     | Objektorientierte Programmierung (Vererbung, Interfaces)            | Klassen, Objekte, Instanzvariablen & -Methoden
 4   | 11.05     | Komplexe Datentypen (Sets, Maps, Lists, Queues, Stacks, Wrapper)    | OOP, Arrays
 5   | 18.05     | Design Patterns                                                     | OOP, Klassen, Vererbung, Interfaces
--   | 25.05     | _Christi Himmelfahrt_                                               | -
+/   | 25.05     | _Christi Himmelfahrt_                                               | /
 6   | 01.06     | Graphen, Bäume und Rekursion                                        | Komplexe Datentypen
 7   | 08.06     | Komplexere Algorithmen (BFS, DFS, Dijkstra, TSP)                    | Komplexe Datentypen
 8   | 15.06     | Testing und Clean Code                                              | OOP
