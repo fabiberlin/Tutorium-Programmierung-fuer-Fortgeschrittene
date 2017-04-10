@@ -32,4 +32,4 @@ proguard/
 .metadata/
 .recommenders
 *.swp
-
+*.prefs
