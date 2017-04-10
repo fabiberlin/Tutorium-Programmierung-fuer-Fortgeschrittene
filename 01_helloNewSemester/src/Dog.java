@@ -1,6 +1,6 @@
 import java.util.Calendar;
 
-public class Dog extends Functions {
+public class Dog {
 		
 		private String name;
 		private int birthyear;
