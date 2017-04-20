@@ -1,3 +1,9 @@
+## Organisatorisches
+
+* donnerstags 15:45 - 17:15 Uhr - PBH 4007
+* [baensch@htw-berlin.de](mailto:baensch@htw-berlin.de)
+* Repository bei [GitHub](https://github.com/fabiberlin)
+
 ## Sprachkonzepte in Java
 
 * Hello World
