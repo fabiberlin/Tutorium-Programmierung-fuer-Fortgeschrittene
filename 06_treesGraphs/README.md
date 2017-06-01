@@ -2,13 +2,14 @@
 
 ### Recursion
 
-> Recursion in computer science is a method where the solution to a problem depends on solutions to smaller instances of the same problem (as opposed to iteration). The approach can be applied to many types of problems, and recursion is one of the central ideas of computer science.
+> Recursion in computer science is a method where the solution to a problem depends on solutions to smaller instances of the same problem. The approach can be applied to many types of problems, and recursion is one of the central ideas of computer science.
 
 >Most computer programming languages support recursion by allowing a function to call itself within the program text. Some functional programming languages do not define any looping constructs but rely solely on recursion to repeatedly call code
 [link](https://en.wikipedia.org/wiki/Recursion_(computer_science))
 
+ - void sayHelloNTimes(int number)
  - int sumUpTill(int number)
- - int mulUpTill(int number)
+ - int multiplyUpTill(int number)
 
 ### Trees
 
@@ -66,6 +67,8 @@ A graph data structure may also associate to each edge some edge value, such as 
  - Weighted Graphs
  - Directed Acyclic Graphs (DAG) - directed graph without cycles
  - Disconnected Graphs
+ - Planar graph
+
 
 #### Realted Topics
 
