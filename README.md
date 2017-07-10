@@ -1,4 +1,4 @@
-## Themen
+﻿## Themen
 
 \#  | Datum     | Inhalt                                                              | Voraussetzung
 --  | ----      | ----                                                                | ----
@@ -14,6 +14,6 @@
 9   | 22.06     | Graphical User Interfaces                                           | OOP
 10  | 29.06     | Wdhg (2 & 3)
 11  | 06.07     | Wdhg (4 & 5)
-12  | 13.07     | Klausurvorbereitung
+12  | 13.07     | Klausurvorbereitung (Bringt eure Klausuren mit)
 13  | 20.07     | Wdhg (6 & 7)
 14  | 27.07     | Wdhg (8 & 9)
