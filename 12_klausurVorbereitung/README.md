@@ -120,3 +120,5 @@
   b.method3();
   B.method3();
   ```
+
+22. Was ist der Unterschied zwischen Call-by-Value und Call-by-Reference?
