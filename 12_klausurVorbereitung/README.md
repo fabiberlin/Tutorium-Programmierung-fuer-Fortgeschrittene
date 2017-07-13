@@ -95,3 +95,28 @@
 19. Nenen Sie Eigenschaften / Typen von Graphen
 
 20. Wie verhält sich der Call Stack bei rekursiven Methoden?
+
+21. Gegeben seien folgende Klassen:
+
+  ```java
+  class A {
+  	private void method1(){}
+  	protected void method2(){}
+  	public static void method3(){}
+  }
+
+  class B extends A {}
+
+  class C extends B {}
+  ```
+
+  Welcher der folgenden Statements ist unzulässig?
+  ```java
+  A a = new B();
+  B b = new B();
+  C c = new B();
+  b.method1();  
+  b.method2();
+  b.method3();
+  B.method3();
+  ```
