@@ -49,6 +49,12 @@ try (BufferedReader br = new BufferedReader(new FileReader(new File("path/to/Fil
 - Nodes and references
 - as Array (Heap)
 
+### Functions
+
+ - Add
+ - Search
+ - Delete
+
 ### Tree traversal
 
 - Pre-order
@@ -64,3 +70,7 @@ try (BufferedReader br = new BufferedReader(new FileReader(new File("path/to/Fil
   ![Post-order](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Sorted_binary_tree_postorder.svg/220px-Sorted_binary_tree_postorder.svg.png)
 
   pictures from [wikipedia](https://en.wikipedia.org/)
+  
+### AVL Tree
+
+__Self Balancing__ Binary Tree
