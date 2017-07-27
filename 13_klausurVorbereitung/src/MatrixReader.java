@@ -6,22 +6,7 @@ import java.io.IOException;
 
 public class MatrixReader {
 	
-	private void read(){
-		BufferedReader br;
-		try {
-			br = new BufferedReader(new FileReader(new File("src/zahlen.txt")));
-		    String line;
-		    int i = 0;
-		    while ((line = br.readLine()) != null) {
-		    	int number = new Integer(line);		    	
-		    	System.out.println(line);
-		    }
-		}catch(IOException e){
-			
-		}finally {
-		    br.close();
-		}
-	}
+
 
 	public static void main(String[] args) {
 		
@@ -30,16 +15,21 @@ public class MatrixReader {
 		// Read File
 		try (BufferedReader br = new BufferedReader(new FileReader(new File("src/zahlen.txt")))) {
 		    String line;
+		    int dimension = 0;
 		    int i = 0;
 		    while ((line = br.readLine()) != null) {
-		    	int number = new Integer(line);		    	
+		    	int number = Integer.parseInt(line, 10);
 		    	if (matrix == null) {
-					matrix = new int[number][number];
+		    		dimension = number;
+					matrix = new int[dimension][dimension];
 				}else{
-					matrix[i % 4][i / 4] = number;
+					matrix[i % dimension][i / dimension] = number;
 					i++;										
 				}
 		    }
+		    
+		
+		    
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		} catch (IOException e) {
